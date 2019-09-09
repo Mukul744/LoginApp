@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "533379969086",
+    "firebase_url": "https://buzzer-c2390.firebaseio.com",
+    "project_id": "buzzer-c2390",
+    "storage_bucket": "buzzer-c2390.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533379969086:android:b2004c25a5534a4c93a16f",
+        "android_client_info": {
+          "package_name": "com.example.buzzer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533379969086-i6ikac5s66bduavlv1f9j4srqear1vu1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.buzzer",
+            "certificate_hash": "86e470e6b1e28a4c824e3ff77b2ba056afc6650f"
+          }
+        },
+        {
+          "client_id": "533379969086-2ledu0sgmoln51os14qb555i7qv6f68q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqHs3t7oik8lh9NuaZP7QnybJd58U1VMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533379969086-2ledu0sgmoln51os14qb555i7qv6f68q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

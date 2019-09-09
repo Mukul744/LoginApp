@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Buzzer</string>
+    <string name="User">Email</string>
+    <string name="FullName">Name</string>
+    <string name="ReenterPaswword">reEnterPassword</string>
+    <string name="LastName">LastName</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="NewUser">NewUser</string>
+    <string name="Register">Register</string>
+    <string name="gender">Gender:</string>
+    <string name="Male">Male</string>
+    <string name="FeMale">Female</string>
+    <string name="PassWord" tools:ignore="DuplicateDefinition">Password</string>
+</resources>

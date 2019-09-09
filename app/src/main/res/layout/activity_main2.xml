@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Main2Activity"
+    android:background="#8AD2E4">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/User"
+        android:inputType="text"
+        android:backgroundTint="#000000" />
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/FullName"
+        android:inputType="text"
+        android:backgroundTint="#000000"/>
+
+
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Pasword"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/reenterpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:hint="@string/ReenterPaswword"
+        android:inputType="textPassword" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/rbtn1">
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gender"
+            android:layout_alignParentLeft="true"/>
+
+        <RadioButton
+            android:id="@+id/rbtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/Male"
+            android:buttonTint="#796D6D"/>
+
+        <RadioButton
+            android:id="@+id/rbtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/rbtn1"
+            android:text="@string/FeMale" />
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/registerbutton"
+        android:text="@string/Register"
+        android:textColor="#0AEEEE"/>
+
+</LinearLayout>
